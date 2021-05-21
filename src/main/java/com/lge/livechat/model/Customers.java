@@ -10,7 +10,7 @@ public class Customers {
         return this.customerId;
     }
 
-    public void setCustomerId(Integer id) {
+    public void setCustomerId(Integer customerId) {
         this.customerId = customerId;
     }
 
@@ -18,7 +18,7 @@ public class Customers {
         return this.customerName;
     }
 
-    public void setCustomerName(String name) {
+    public void setCustomerName(String customerName) {
         this.customerName = customerName;
     }
 

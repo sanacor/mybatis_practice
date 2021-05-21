@@ -14,7 +14,7 @@ public class ProgramGuideController {
     @GetMapping("/customer")
     public Customers findByCustomerId() {
         System.out.println("GET /program_guide");
-        Customers customers = programGuideService.findByCustomerId(1);
+        Customers customers = programGuideService.findByCustomerId(2);
         return customers;
     }
 
